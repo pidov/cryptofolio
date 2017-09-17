@@ -1,0 +1,19 @@
+import {takeEvery, put} from 'redux-saga/effects'
+import actions, {actionTypes} from '~actions/{{name}}'
+
+export default function* {{name}} () {
+  yield [
+    // takeEvery(actionTypes.ACTION_NAME, onActionHandler)
+  ]
+}
+
+function * onActionHandler (action) {
+  // const {data} = action.payload || {}
+  try {
+    // yield put(actions.ACTION_NAME({data}))
+  } catch (e) {
+    // TODO: show notification error, maybe?!
+  } finally {
+
+  }
+}
