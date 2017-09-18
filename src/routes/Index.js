@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import Orders from '~containers/Orders'
 // import { bindActionCreators } from 'redux'
 
 class Index extends Component {
   render() {
     return (
-      <div>
-        Index asd
-      </div>
+      <Orders />
     )
   }
 }
